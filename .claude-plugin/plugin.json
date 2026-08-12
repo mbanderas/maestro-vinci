@@ -1,8 +1,8 @@
 {
   "name": "maestro-vinci",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "displayName": "Maestro: Vinci",
-  "description": "Use /vinci for evidence-led interface design, visual critique, design systems, accessibility-aware decisions, and rendered validation.",
+  "description": "Use /vinci to create and critique websites, apps, product experiences, brand systems, decks, reports, and visual concepts.",
   "author": {
     "name": "Mark Laursen",
     "url": "https://github.com/mbanderas"
@@ -15,7 +15,11 @@
     "vinci",
     "design",
     "product-design",
-    "interface-design",
+    "web-design",
+    "app-design",
+    "creative-direction",
+    "brand-design",
+    "presentation-design",
     "visual-critique",
     "accessibility",
     "design-systems",

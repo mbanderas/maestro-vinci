@@ -6,7 +6,7 @@ import { dirname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const DEFAULT_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const VERSION = "1.3.0";
+const VERSION = "1.3.1";
 const PLUGIN_NAME = "maestro-vinci";
 const SKILL_NAME = "vinci";
 
@@ -180,7 +180,7 @@ export async function validateRoot(root = DEFAULT_ROOT) {
   check(claude.name === PLUGIN_NAME, `Claude plugin name must be ${PLUGIN_NAME}`);
   check(claude.version === VERSION, `Claude plugin version must be ${VERSION}`);
   check(exportManifest.version === VERSION, `export manifest version must be ${VERSION}`);
-  check(exportManifest.release_provenance_id === "maestro-vinci-1.3.0-2026-08-12", "export manifest provenance ID is wrong");
+  check(exportManifest.release_provenance_id === "maestro-vinci-1.3.1-2026-08-12", "export manifest provenance ID is wrong");
   check(!("source_repository" in exportManifest), "export manifest must not disclose a private source repository");
   check(!("source_commit" in exportManifest), "export manifest must not disclose a private source commit");
   check(exportManifest.policy?.private_source_commit_identifier_disclosed === false, "export manifest must keep private source commit identifiers undisclosed");

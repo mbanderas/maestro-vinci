@@ -17,4 +17,4 @@ The same approved files are duplicated under `skills/vinci/assets/` so the stand
 
 ## Status
 
-These are approved product identity assets for Maestro: Vinci v1.3.0. They are not evidence of the skill's runtime behavior or design quality.
+These are approved product identity assets for Maestro: Vinci v1.3.1. They are not evidence of the skill's runtime behavior or design quality.

@@ -1,43 +1,45 @@
 <p align="center">
-  <img src="assets/maestro-vinci-banner.png" alt="Maestro: Vinci painting a product interface beside typography, image, color, and layout studies" width="100%" />
+  <img src="assets/maestro-vinci-banner.png" alt="Maestro: Vinci artwork with website, app, typography, color, and layout studies" width="100%" />
 </p>
 
 <h1 align="center">Maestro: Vinci</h1>
 
-<p align="center"><strong>Make the interface specific. Prove it in pixels.</strong></p>
+<p align="center"><strong>Turn ideas into unmistakable design.</strong></p>
 
 <p align="center">
   <a href="https://github.com/mbanderas/maestro-vinci/actions/workflows/validate.yml"><img alt="Validation status" src="https://github.com/mbanderas/maestro-vinci/actions/workflows/validate.yml/badge.svg" /></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-18d9e8" /></a>
 </p>
 
-A polished interface can still feel interchangeable. Maestro: Vinci gives Codex, Claude Code, and Agent Skills-compatible hosts a design specialist that turns product context into a specific visual direction, then inspects the rendered result before claiming success.
+A website can work perfectly and still leave no impression. An app can feel polished and still look like everything else. Maestro: Vinci gives Codex, Claude Code, and Agent Skills-compatible hosts a creative partner for websites, apps, product experiences, brands, decks, reports, and visual systems.
 
-Vinci works inside the product already in front of it. It reads the repository, preserves the incumbent system, makes the design decisions the brief requires, and treats external references as bounded evidence rather than a style to copy.
+Vinci turns a brief into a clear point of view, then carries that direction through layout, typography, color, imagery, motion, interaction, and the details that make the work unmistakably yours. It can create, redesign, critique, or refine while respecting the product and design system already in place.
 
-> Direction before decoration. Product logic before novelty. Rendered pixels before confidence.
+> Direction before decoration. Character without imitation. Craft all the way through.
 
 ## Why Vinci exists
 
-Coding agents can produce valid interfaces while leaving the consequential design decisions unresolved: hierarchy, rhythm, density, type, color, responsive behavior, edge states, motion, and imagery. Vinci makes those decisions explicit and testable.
+Most coding agents can assemble the pieces. Vinci shapes them into a coherent design. Typography, color, composition, motion, imagery, interaction, and responsive behavior all serve the same creative idea.
 
-- **Specific to the product:** direction starts from audience, content, brand, and existing components.
-- **Built for real repositories:** Vinci preserves the target stack and extends the system already in use.
-- **Useful critique:** findings connect observation to consequence and repair.
-- **Complete state thinking:** loading, empty, error, focus, keyboard, reduced-motion, responsive, and zoom states stay in scope.
-- **Verified output:** authored surfaces are rendered, inspected, repaired, and re-rendered before completion claims.
+- **A real creative direction:** Every project gets an idea, mood, visual language, and deliberate point of view.
+- **Made for the work in front of you:** Vinci reads the audience, content, brand, and product before choosing a style.
+- **Broad creative range:** Websites, apps, product UI, brands, decks, reports, campaigns, prototypes, and design systems.
+- **Taste with practical depth:** Beautiful composition and expressive detail, carried through responsive states, accessibility, and real content.
+- **An exacting final eye:** Vinci finds what weakens the finished work and keeps refining until the design holds together.
 
-## What Vinci controls
+## What Vinci brings
 
 | Capability | What it does |
 |---|---|
-| Product and interface design | Establishes hierarchy, layout, type, color, state, responsive behavior, motion, and imagery from the brief and incumbent system |
-| Visual critique | Separates defects from preferences and writes each finding as observation, consequence, and repair |
+| Websites and landing pages | Creates expressive marketing, editorial, portfolio, campaign, and conversion experiences |
+| Apps and digital products | Shapes product UI, interaction states, onboarding, dashboards, flows, and responsive behavior |
+| Brand and art direction | Builds a visual point of view through typography, color, imagery, composition, and motion |
+| Decks and reports | Turns ideas, research, and strategy into clear, compelling visual stories |
+| Creative direction and critique | Finds the strongest visual idea, identifies what weakens it, and gives the work a sharper point of view |
 | Design systems | Reads and extends existing tokens, components, patterns, and interaction grammar without silently replacing them |
-| Anti-template review | Tests whether the result is specific to the product, content, audience, and brand |
-| Accessibility | Checks semantics, contrast, focus, keyboard paths, touch targets, reduced motion, responsive behavior, and zoom |
-| Rendered validation | Renders required states, inspects actual pixels, repairs confirmed defects, and re-renders before claiming success |
-| Reference judgment | Uses a metadata-only external catalog with explicit retrieval caps, evidence limits, and do-not-copy rules |
+| Originality and distinction | Pushes past generic templates without borrowing another brand's identity |
+| Inclusive design | Builds accessibility, keyboard use, responsive behavior, reduced motion, and zoom into the creative work |
+| Final polish | Renders the work, inspects what people will actually see, fixes visible problems, and checks it again |
 
 ## Install from GitHub
 
@@ -98,18 +100,18 @@ The npm package is not published yet. The GitHub and local installation paths ab
 Use `$vinci` in Codex or `/vinci` in a host that exposes skills as slash commands:
 
 ```text
-$vinci Critique this account settings screen. Rank confirmed defects by user impact and preserve the existing component system.
+$vinci Give this website a stronger creative direction. Make it feel unmistakably ours, not like another startup template.
 ```
 
 ```text
-/vinci Design the responsive visual contract for this onboarding flow. Include loading, error, empty, keyboard, reduced-motion, and 200 percent zoom states.
+/vinci Design this app onboarding flow from first impression through loading, error, empty, keyboard, reduced-motion, and mobile states.
 ```
 
 ```text
-/vinci Redesign this landing page around the supplied product evidence. Keep the framework, tokens, routes, and approved claims unchanged.
+/vinci Turn this strategy into a cinematic pitch deck with a clear narrative, strong typography, and a visual system we can own.
 ```
 
-## Design loop
+## From brief to finished work
 
 1. Vinci classifies the task mode and change scope independently.
 2. It inspects target-repository instructions, tokens, components, content, states, and same-type shipped surfaces.
@@ -117,14 +119,15 @@ $vinci Critique this account settings screen. Rank confirmed defects by user imp
 4. It builds semantic structure, layout, typography, surfaces, states, responsive behavior, motion, and imagery in that order.
 5. It stress-tests realistic content and edge states while building.
 6. It renders required frames, inspects the pixels, repairs confirmed defects, and re-renders.
-7. It returns the artifact or critique with evidence, residuals, and the exact boundary of work not performed.
+7. It returns the finished work or critique, the creative reasoning behind it, and any remaining limitations.
 
 ## Built for
 
-- product teams that need distinctive interfaces without replacing their working design system;
-- engineers who want design decisions expressed as buildable structure, states, and responsive behavior;
-- designers who need a rigorous critique partner inside the repository;
-- agent builders who want a portable design specialist with explicit evidence and validation boundaries.
+- founders who want their website or product to look as distinctive as the idea behind it;
+- product teams that need creative range without replacing a working design system;
+- engineers who want strong design decisions expressed as buildable structure and responsive behavior;
+- designers who want a sharp creative partner for direction, critique, and final polish;
+- teams turning strategy, research, or stories into decks, reports, campaigns, and branded visuals.
 
 ## Included knowledge
 
@@ -133,23 +136,21 @@ The public skill contains:
 - a portable Vinci runtime adapter and persona;
 - condensed design doctrine;
 - the 19-chapter craft manual and two delivery checklists;
-- operating and rendered-interface evaluation methods;
+- visual quality and finish checks;
 - a safe visual-validation loop;
 - a metadata-only catalog of bounded public design observations, patterns, source URLs, risks, and do-not-copy rules.
 
 The package excludes raw external images, training sources, audits, holdouts, private memory, meta-prompts, browser profiles, databases, logs, and private Git objects or history. The [export manifest](EXPORT_MANIFEST.json) records public release provenance, input hashes, transformations, and the exclusion boundary without disclosing a private source repository or commit identifier.
 
-## Evidence boundary
+## Creative integrity
 
-The external catalog does not contain screenshots. Its entries are time-bound observations, not accessibility certifications, runtime tests, performance claims, conversion claims, or permission to reproduce protected identity.
+Vinci uses references to expand possibility, not to copy style. It studies composition, typography, interaction, imagery, and visual patterns while leaving another brand's identity, wording, artwork, and code untouched.
 
-Vinci requires rendered evidence for claims about authored pixels. When a required render, browser, independent review, or accessibility check cannot run, the result records `not-run` or a residual. Missing evidence does not become a pass.
+When Vinci creates visual work, it inspects the actual result, fixes visible problems, and checks it again. If a render, browser check, or accessibility review cannot run, Vinci states what remains unchecked.
 
-## From interface quality to market visibility
+## Great products deserve to be found
 
-Strong design gives a product a clear point of view. Buyers still need to find it in answer engines.
-
-- **[CiteSurge](https://citesurge.com)**: Applies Maestro's evidence-first discipline to enterprise GEO: measure what answer engines say, turn findings into prioritized action, and document what changed.
+Vinci makes the product worth remembering. **[CiteSurge](https://citesurge.com)** helps make it the answer people find in AI search. See how answer engines present your brand, find what is missing, and turn the gaps into content, technical, media, and GEO work.
 
 ## Development
 
