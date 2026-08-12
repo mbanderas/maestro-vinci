@@ -1,7 +1,7 @@
 {
   "name": "maestro-vinci",
-  "version": "1.3.0",
-  "description": "Maestro: Vinci applies evidence-led design judgment to interfaces, visual systems, critique, and rendered validation.",
+  "version": "1.3.1",
+  "description": "Maestro: Vinci brings creative direction, critique, and final polish to websites, apps, product experiences, brand systems, decks, and reports.",
   "author": {
     "name": "Mark Laursen",
     "url": "https://github.com/mbanderas"
@@ -13,7 +13,11 @@
     "vinci",
     "design",
     "product-design",
-    "interface-design",
+    "web-design",
+    "app-design",
+    "creative-direction",
+    "brand-design",
+    "presentation-design",
     "visual-critique",
     "accessibility",
     "design-systems",
@@ -23,8 +27,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Maestro: Vinci",
-    "shortDescription": "Distinctive design, verified in pixels",
-    "longDescription": "Install Maestro: Vinci for direct /vinci design authoring and critique grounded in the target product, explicit craft doctrine, accessibility checks, and rendered pixel evidence.",
+    "shortDescription": "Creative direction to final polish",
+    "longDescription": "Install Maestro: Vinci to create and critique websites, apps, product experiences, brand systems, decks, and reports with a strong visual point of view, accessibility-aware craft, and careful final polish.",
     "developerName": "Mark Laursen",
     "category": "Productivity",
     "capabilities": [
@@ -37,9 +41,9 @@
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/maestro-vinci-banner.png",
     "defaultPrompt": [
-      "Use /vinci to redesign this interface without replacing its product system.",
-      "Use /vinci to critique this screen and rank defects by user impact.",
-      "Use /vinci to build a responsive visual contract and verify the rendered states."
+      "Use /vinci to give this website a distinctive creative direction.",
+      "Use /vinci to redesign this app without replacing its product system.",
+      "Use /vinci to turn this story into a memorable deck or visual report."
     ]
   }
 }

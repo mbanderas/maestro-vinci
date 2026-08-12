@@ -1,6 +1,6 @@
 {
   "name": "maestro-vinci",
-  "description": "Self-hosted marketplace for Maestro: Vinci, an evidence-led design authoring and critique skill.",
+  "description": "Self-hosted marketplace for Maestro: Vinci, a creative design partner from first direction to final polish.",
   "owner": {
     "name": "Mark Laursen",
     "url": "https://github.com/mbanderas"
@@ -9,7 +9,7 @@
     {
       "name": "maestro-vinci",
       "source": "./",
-      "description": "Design and critique interfaces with product evidence, explicit craft doctrine, accessibility checks, and rendered pixel validation."
+      "description": "Create and critique websites, apps, product experiences, brands, decks, reports, and visual systems with a strong creative direction."
     }
   ]
 }

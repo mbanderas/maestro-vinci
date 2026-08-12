@@ -1,7 +1,7 @@
 {
   "name": "@maestrovinci/vinci",
-  "version": "1.3.0",
-  "description": "Install Maestro: Vinci for evidence-led interface design, visual critique, and rendered validation.",
+  "version": "1.3.1",
+  "description": "Install Maestro: Vinci, the creative design partner for websites, apps, brands, decks, reports, and product experiences.",
   "type": "module",
   "bin": {
     "vinci": "scripts/install.mjs"
@@ -54,7 +54,11 @@
     "vinci",
     "design",
     "product-design",
-    "interface-design",
+    "web-design",
+    "app-design",
+    "creative-direction",
+    "brand-design",
+    "presentation-design",
     "design-systems",
     "accessibility",
     "visual-validation",

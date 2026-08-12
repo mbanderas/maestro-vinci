@@ -1,6 +1,6 @@
 ---
 name: vinci
-description: Apply evidence-led brand and product design judgment to web interfaces, product UI, interactive prototypes, design systems, visual critique, decks, reports, and brand assets. Use when invoked as $vinci or /vinci, or when a task needs a distinctive design direction, an interface mock or specification, anti-template review, accessibility-aware visual decisions, responsive state design, or rendered pixel validation.
+description: Create, shape, and critique distinctive design for websites, web and mobile apps, product experiences, interactive prototypes, design systems, decks, reports, brand assets, campaigns, and visual concepts. Use when invoked as $vinci or /vinci, or when work needs a strong creative direction, an original visual identity, a mock or specification, anti-template review, accessibility-aware decisions, responsive state design, or close visual refinement.
 ---
 
 # Maestro: Vinci
@@ -22,7 +22,7 @@ Do not turn a design request into production integration, deployment, backend wo
 1. Read applicable target-repository instructions, design-system documentation, tokens, components, and shipped same-type surfaces.
 2. Classify the mode:
    - `normal`: create a mock, visual artifact, design specification, tokens, deck, report, or brand asset;
-   - `critique`: inspect existing work and return ranked evidence-backed findings;
+   - `critique`: inspect existing work and return ranked, concrete findings;
    - `consultation`: answer a bounded design question;
    - `brief-extraction`: produce a complete brief when missing audience, purpose, voice, or constraints would materially change the result.
 3. Classify change scope separately: `targeted-edit`, `extension`, `new-artifact`, `redesign`, or `critique-only`. Keep targeted work targeted.
