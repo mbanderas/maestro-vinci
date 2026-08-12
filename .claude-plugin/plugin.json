@@ -1,0 +1,24 @@
+{
+  "name": "maestro-vinci",
+  "version": "1.3.0",
+  "displayName": "Maestro: Vinci",
+  "description": "Use /vinci for evidence-led interface design, visual critique, design systems, accessibility-aware decisions, and rendered validation.",
+  "author": {
+    "name": "Mark Laursen",
+    "url": "https://github.com/mbanderas"
+  },
+  "homepage": "https://github.com/mbanderas/maestro-vinci",
+  "repository": "https://github.com/mbanderas/maestro-vinci",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "vinci",
+    "design",
+    "product-design",
+    "interface-design",
+    "visual-critique",
+    "accessibility",
+    "design-systems",
+    "claude-code"
+  ]
+}

@@ -1,0 +1,10 @@
+interface:
+  display_name: "Maestro: Vinci"
+  short_description: "Design judgment from brief to verified pixels"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/maestro-vinci-banner.png"
+  brand_color: "#18D9E8"
+  default_prompt: "Use $vinci to design or critique this interface with evidence-backed visual judgment."
+
+policy:
+  allow_implicit_invocation: true

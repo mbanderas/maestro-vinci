@@ -1,0 +1,45 @@
+{
+  "name": "maestro-vinci",
+  "version": "1.3.0",
+  "description": "Maestro: Vinci applies evidence-led design judgment to interfaces, visual systems, critique, and rendered validation.",
+  "author": {
+    "name": "Mark Laursen",
+    "url": "https://github.com/mbanderas"
+  },
+  "homepage": "https://github.com/mbanderas/maestro-vinci#readme",
+  "repository": "https://github.com/mbanderas/maestro-vinci",
+  "license": "MIT",
+  "keywords": [
+    "vinci",
+    "design",
+    "product-design",
+    "interface-design",
+    "visual-critique",
+    "accessibility",
+    "design-systems",
+    "codex",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Maestro: Vinci",
+    "shortDescription": "Distinctive design, verified in pixels",
+    "longDescription": "Install Maestro: Vinci for direct /vinci design authoring and critique grounded in the target product, explicit craft doctrine, accessibility checks, and rendered pixel evidence.",
+    "developerName": "Mark Laursen",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/mbanderas/maestro-vinci",
+    "privacyPolicyURL": "https://github.com/mbanderas/maestro-vinci/blob/main/PRIVACY.md",
+    "brandColor": "#18D9E8",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/maestro-vinci-banner.png",
+    "defaultPrompt": [
+      "Use /vinci to redesign this interface without replacing its product system.",
+      "Use /vinci to critique this screen and rank defects by user impact.",
+      "Use /vinci to build a responsive visual contract and verify the rendered states."
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "maestro-vinci",
+  "interface": {
+    "displayName": "Maestro: Vinci"
+  },
+  "plugins": [
+    {
+      "name": "maestro-vinci",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mbanderas/maestro-vinci.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

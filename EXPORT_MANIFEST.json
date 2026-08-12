@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "product": "Maestro: Vinci",
+  "plugin": "maestro-vinci",
+  "skill": "vinci",
+  "version": "1.3.0",
+  "exported_at": "2026-08-12",
+  "release_provenance_id": "maestro-vinci-1.3.0-2026-08-12",
+  "source_state": "clean canonical source at export",
+  "source_access": "private canonical training repository",
+  "source_commit_disclosure": "Private source repository and commit identifiers are intentionally excluded from the public package.",
+  "policy": {
+    "strict_allowlist": true,
+    "raw_external_images_included": false,
+    "training_material_included": false,
+    "private_memory_included": false,
+    "private_git_history_included": false,
+    "private_source_commit_identifier_disclosed": false
+  },
+  "runtime_inputs": [
+    {
+      "source": "SKILL.md",
+      "sha256": "2b57fd81d382f96946c4ab5a393e371f82c9ce99db4c6ce52ba9abf9162dd953",
+      "output": "skills/vinci/SKILL.md",
+      "mode": "portable adaptation"
+    },
+    {
+      "source": "PERSONA.md",
+      "sha256": "b5abdba26dd9a3e5a4a67e6c3a812ce7286794d196b9c0ef567e427895c46986",
+      "output": "skills/vinci/references/persona.md",
+      "mode": "public portable distillation"
+    },
+    {
+      "source": "design-doctrine.md",
+      "sha256": "bfa4a385e7e202a91bdc6a3304a8e3e5911b28d75406f0a2f6f653c12325a774",
+      "output": "skills/vinci/references/design-doctrine.md",
+      "mode": "portable path and tooling adaptation"
+    },
+    {
+      "source": "references/design-operations.md",
+      "sha256": "0331bd4fddcbb1103352be8e35a9afede48fc2b5375915a0ad4c177fc9ce3101",
+      "output": "skills/vinci/references/design-operations.md",
+      "mode": "portable path adaptation"
+    },
+    {
+      "source": "references/interface-evaluation.md",
+      "sha256": "e3a330fe9595c8a6f9605aa954c5babd7ab3b78340f8dc0ee9748207654b3dba",
+      "output": "skills/vinci/references/interface-evaluation.md",
+      "mode": "portable path adaptation"
+    },
+    {
+      "source": "skills/visual-validation/SKILL.md",
+      "sha256": "dc11f206ec1890bb9f4cd81b128ba389ce86aa21c670d47f22b5a24ddb9c8c05",
+      "output": "skills/vinci/references/visual-validation.md",
+      "mode": "public portable distillation"
+    }
+  ],
+  "catalog_inputs": [
+    {
+      "source": "references/external/reference-engine-2026-08-12/fingerprint.json",
+      "sha256": "d8d8890b8c8aba830459b6354b3ea6b3d6b21d7eaecd97b57f47ffc04dea91a4",
+      "output": "skills/vinci/references/catalog/fingerprint.json",
+      "mode": "public provenance redaction"
+    },
+    {
+      "source": "references/external/reference-engine-2026-08-12/patterns.md",
+      "sha256": "c4261905b47b7d68a36c8032528c081b1f85058e18c54eb8a81b905f0ca127ad",
+      "output": "skills/vinci/references/catalog/patterns.md",
+      "mode": "byte copy"
+    },
+    {
+      "source": "references/external/reference-engine-2026-08-12/annotations.md",
+      "sha256": "b423e9c1a05bc7bb548113bee68d9bd1fbf5527e10b40b0dfd036deb7c0cd16b",
+      "output": "skills/vinci/references/catalog/annotations.md",
+      "mode": "byte copy"
+    }
+  ],
+  "craft_inputs": {
+    "source_root": "skills/bunker-design",
+    "output_root": "skills/vinci/references/craft",
+    "mode": "copy with trailing-whitespace normalization where listed",
+    "normalized_files": [
+      "doctrine/05-color.md",
+      "doctrine/07-content-and-copy.md",
+      "doctrine/10-interactive-prototypes.md",
+      "doctrine/11-state-and-data.md",
+      "doctrine/16-accessibility.md",
+      "doctrine/17-responsive-design.md"
+    ],
+    "files": [
+      ["doctrine/01-design-process.md", "630d69e3852463dd812c818b4af5c4be239a803ea3e9432ccf9fbe0c48df37a7"],
+      ["doctrine/02-asking-questions.md", "ecdb7a6874b7be5624eb2b39ccfff0f5bb2a393852fb6c7526188fce416163dd"],
+      ["doctrine/03-hi-fi-design.md", "1f38305eb8fdfe6bccd349b1d0d61a8fb0b02a806692654f3e5c070242953951"],
+      ["doctrine/04-typography.md", "764142f9744d6d77c25261b0ade78403ac128acbe9cb92682d36acc5f43db925"],
+      ["doctrine/05-color.md", "d23f9f720712c543f907edaf30aa89ba7e5137bd8a459089285c44f604811f99", "cf833902706ebd869bd5ced45fb78b0f7c7a8a26d1c991aa4ef0ddad1e143899"],
+      ["doctrine/06-layout-and-spacing.md", "587d860d439a8da1238d1af35737e423822e4de2cb1513be94632a1de0ee59a6"],
+      ["doctrine/07-content-and-copy.md", "b9349a299edf210db73780e900e91280f3fed454c62c9b66c979c7db558b7dee", "32b43a40c72a770368f3883fabf5a73d9f670bfd3c73e1318f63bb301329af6d"],
+      ["doctrine/08-imagery-and-icons.md", "fe999735794eceeaef30afdfa219242c57209b69f28e21942aeb8353695dd7ce"],
+      ["doctrine/09-motion-and-animation.md", "a905c16c0fe474a0ad11e3d7a7b4889313efd1756b5654adef899e354f748913"],
+      ["doctrine/10-interactive-prototypes.md", "53c4cb669b56d4431a7bf0f22e55bd6394d328a4b936983ca480c2918ee8b8af", "9f309df1310e1e7a4a24a5982e89328a7a5a1921da5ee4e46eabdb2f71b7c7ad"],
+      ["doctrine/11-state-and-data.md", "a326016e38055bcb515ce432d1d099ef85296986d2bf9239bbce81beddcb965f", "aafa36f60bbe995bc67259b291352c33839e761e6b498e2bf8865c438c2d3b95"],
+      ["doctrine/12-forms-and-inputs.md", "4784bf797eaf7f63d2a6e140d6fd218b12c255ea44400db0edbd3cb0dedd04c5"],
+      ["doctrine/13-design-systems.md", "55b7099cb57e5d46fc61c5913d97367de79feeb8fae839b5d55213a661534452"],
+      ["doctrine/14-variations-and-tweaks.md", "c79d69348dd2648696616add46d04328cac9f16cbea1466112991cac54b345d3"],
+      ["doctrine/15-decks-and-presentations.md", "fc1b066ecbb179b5a7d551b3b2e7e99716082f2194f779493e8d1f31aa1a480f"],
+      ["doctrine/16-accessibility.md", "6ce1ffb4e38b3b4d0f880148b8bef22738487d3ec10d7ae04e7ae361016c0d04", "9788576fb62c9e6d68d83bc41f8be93fcebf949d41cb771cd844ef0f046265ff"],
+      ["doctrine/17-responsive-design.md", "43281b60a3fc2d8e87007877de924b5b729ab1bb53c71afa3debcc6fe6875eef", "0f2cf4120a220f65486ca59c26110417a99651f9841342b0095f54a56e0b9a74"],
+      ["doctrine/18-common-pitfalls.md", "d6de0bcd819d5ffd8a773938cef79d6fc4da0aa462f398800ceabd71f37b053f"],
+      ["doctrine/19-checklist.md", "720610756ceb48bee9cf6a81144ed5938cfd4a1625a9a266ea1454dbb4fbf703"],
+      ["doctrine/README.md", "da948e2623b19f8e47e0a52147deb85ee79553be9c8eaabe9dc3bfdea3e64e85"],
+      ["checklists/pitfalls.md", "c2b5ff016608d3260977fb7ee4b2bccd6fea7fa8e694538eadac0d7feaf40f16"],
+      ["checklists/pre-delivery.md", "ef0620d021a3f60a3bcc4a79a6958efe3c0969055d4dff1abdff883baacb3592"]
+    ]
+  },
+  "asset_inputs": [
+    {
+      "source": "out/maestro-vinci/maestro-vinci-icon-concept-v1.png",
+      "sha256": "0ababcc783d2eda58c28bd7c50a228d2dbc96b639b2f77bdd89c41647dba0952",
+      "outputs": ["assets/icon.png", "skills/vinci/assets/icon.png"]
+    },
+    {
+      "source": "out/maestro-vinci/maestro-vinci-readme-header-concept-v1.png",
+      "sha256": "0e65f13ccbc2f04ce5d59a1c84146876311370d2b5b3442276c3e97e249e8f49",
+      "outputs": ["assets/maestro-vinci-banner.png", "skills/vinci/assets/maestro-vinci-banner.png"]
+    }
+  ],
+  "excluded_classes": [
+    "raw external or positive-corpus images",
+    "training sources, audits, and holdouts",
+    "private memory and evaluation state",
+    "operator meta-prompts",
+    "browser profiles, sessions, and captures",
+    "databases and logs",
+    "generated dependency trees and render output",
+    "private Git history and source remotes"
+  ]
+}

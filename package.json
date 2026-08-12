@@ -1,0 +1,64 @@
+{
+  "name": "@maestrovinci/vinci",
+  "version": "1.3.0",
+  "description": "Install Maestro: Vinci for evidence-led interface design, visual critique, and rendered validation.",
+  "type": "module",
+  "bin": {
+    "vinci": "scripts/install.mjs"
+  },
+  "files": [
+    ".agents/plugins/marketplace.json",
+    ".claude-plugin/marketplace.json",
+    ".claude-plugin/plugin.json",
+    ".codex-plugin/plugin.json",
+    "assets",
+    "DISCLAIMER.md",
+    "EXPORT_MANIFEST.json",
+    "LICENSE",
+    "PRIVACY.md",
+    "README.md",
+    "SECURITY.md",
+    "THIRD_PARTY_NOTICES.md",
+    "scripts/install.mjs",
+    "skills/vinci"
+  ],
+  "scripts": {
+    "check": "npm run validate && npm test && npm run hygiene:check && npm run pack:check",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "hygiene:check": "node scripts/release-hygiene.mjs",
+    "pack:check": "node scripts/pack-check.mjs",
+    "release:check": "npm run validate && npm test && npm run hygiene:check",
+    "prepack": "npm run release:check",
+    "prepublishOnly": "npm run check"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbanderas/maestro-vinci.git"
+  },
+  "homepage": "https://github.com/mbanderas/maestro-vinci#readme",
+  "bugs": {
+    "url": "https://github.com/mbanderas/maestro-vinci/issues"
+  },
+  "author": "Mark Laursen",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "agent-skills",
+    "maestro",
+    "vinci",
+    "design",
+    "product-design",
+    "interface-design",
+    "design-systems",
+    "accessibility",
+    "visual-validation",
+    "codex",
+    "claude-code"
+  ]
+}
