@@ -135,7 +135,8 @@ The public skill contains:
 
 - a portable Vinci runtime adapter and persona;
 - condensed design doctrine;
-- the 19-chapter craft manual and two delivery checklists;
+- the 20-chapter craft manual and two delivery checklists;
+- a flagship website workflow for high-fidelity art direction, signature interactions, and rendered quality checks;
 - visual quality and finish checks;
 - a safe visual-validation loop;
 - a metadata-only catalog of bounded public design observations, patterns, source URLs, risks, and do-not-copy rules.

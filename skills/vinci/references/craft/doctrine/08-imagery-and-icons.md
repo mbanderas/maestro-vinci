@@ -13,10 +13,12 @@ In rough order of how convincing they read:
 3. **Curated stock** — Unsplash, Pexels, with care
 4. **Designed placeholders** — geometric, on-brand, intentionally not-real
 5. **Stock photography used carelessly** — readily identifiable as stock
-6. **AI-generated imagery** — uncanny by default; flag the use clearly
+6. **Unguided AI-generated imagery** — prone to generic styling and structural errors
 7. **Generic system icons in place of imagery** — gives up
 
 Always work as high up this list as possible.
+
+Treat art-directed generation as a way to produce custom illustration. Define the subject, reference style, protected details, and acceptance criteria, then inspect the output at its intended scale. For artwork with coordinated layers or lighting variants, follow [Living Illustrated Scenery](20-living-illustrated-scenery.md).
 
 ---
 

@@ -1,6 +1,6 @@
 # Designer -- Design Doctrine Reference
 
-Distilled doctrine for fast scan. The detailed 19-chapter manual is bundled at
+Distilled doctrine for fast scan. The detailed craft manual is bundled at
 `craft/doctrine/`. When in doubt on a visual decision, open the relevant chapter
 instead of relying on intuition.
 
@@ -75,6 +75,7 @@ Read the detailed reference under `craft/doctrine/` on demand by chapter.
 | **Prototyping** | 10 prototypes · 11 state · 12 forms |
 | **Systems** | 13 design systems · 14 variations · 15 decks |
 | **Quality** | 16 accessibility · 17 responsive · 18 pitfalls · 19 checklist |
+| **Specialized web craft** | [Flagship websites](flagship-websites.md) · [20 living illustrated scenery](craft/doctrine/20-living-illustrated-scenery.md) |
 
 If only three: 01 (process), 03 (hi-fi), 18 (pitfalls).
 

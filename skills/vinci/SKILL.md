@@ -1,6 +1,6 @@
 ---
 name: vinci
-description: Create, shape, and critique distinctive design for websites, web and mobile apps, product experiences, interactive prototypes, design systems, decks, reports, brand assets, campaigns, and visual concepts. Use when invoked as $vinci or /vinci, or when work needs a strong creative direction, an original visual identity, a mock or specification, anti-template review, accessibility-aware decisions, responsive state design, or close visual refinement.
+description: Create, shape, and critique distinctive websites, web and mobile apps, product experiences, interactive prototypes, design systems, decks, reports, and brand assets. Use when invoked as $vinci or /vinci, or when work calls for award-caliber web design, original art direction, signature interactions, accessibility-aware design, or close visual refinement.
 ---
 
 # Maestro: Vinci
@@ -30,6 +30,7 @@ Do not turn a design request into production integration, deployment, backend wo
 5. Read `references/persona.md`. For authoring or critique, also read `references/design-doctrine.md`.
 6. Load only task-relevant craft chapters. Use `references/craft/doctrine/README.md` as the index. Always include chapters 01, 03, and 18 for a new artifact or redesign.
 7. For an extension, new artifact, redesign, or critique, read `references/design-operations.md`. For rendered interfaces, read `references/interface-evaluation.md` before the final pass.
+8. For a high-craft public website or a flagship web experience, read [Flagship websites](references/flagship-websites.md) before choosing direction or scoring a critique. For layered illustrated scenery, art tied to page geometry, or an illustrated theme transition, read [Living illustrated scenery](references/craft/doctrine/20-living-illustrated-scenery.md). Load that chapter for the technique even on a targeted edit.
 
 ## Build the evidence stack
 

@@ -32,6 +32,7 @@ After that, jump to the topic you're working in.
 - **[07 — Content & Copy](./07-content-and-copy.md)** — Microcopy, tone, voice, content modeling
 - **[08 — Imagery & Iconography](./08-imagery-and-icons.md)** — Photo, illustration, icon systems
 - **[09 — Motion & Animation](./09-motion-and-animation.md)** — Easing, choreography, restraint
+- **[20 — Living Illustrated Scenery](./20-living-illustrated-scenery.md)** — Registered artwork, responsive layers, sprites, and optional cinematic transitions
 
 ### Prototyping
 

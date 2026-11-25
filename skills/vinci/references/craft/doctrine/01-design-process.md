@@ -85,7 +85,7 @@ Build the file structure. Drop in tokens and global styles. Place the major sect
 
 Show this to the reviewer. A scaffolded design viewed early gets feedback at the structural level, which is cheap to act on. A polished design viewed late gets feedback at the same structural level, which is expensive to act on.
 
-The reviewer doesn't need you to be perfect at this stage — they need to know you're heading in the right direction.
+At this stage, ask about content order, navigation, and interaction structure. When the decision is about art direction or whether a flagship website feels distinctive, show a representative section with real type, content, and artwork. Use the [flagship website workflow](../../flagship-websites.md) for that comparison.
 
 ---
 

@@ -3,10 +3,10 @@
   "product": "Maestro: Vinci",
   "plugin": "maestro-vinci",
   "skill": "vinci",
-  "version": "1.3.1",
-  "exported_at": "2026-08-12",
-  "release_provenance_id": "maestro-vinci-1.3.1-2026-08-12",
-  "source_state": "clean canonical source at export",
+  "version": "1.4.0",
+  "exported_at": "2026-11-25",
+  "release_provenance_id": "maestro-vinci-1.4.0-2026-11-25",
+  "source_state": "portable adaptation of the 2026-08-12 canonical export with distilled website guidance",
   "source_access": "private canonical training repository",
   "source_commit_disclosure": "Private source repository and commit identifiers are intentionally excluded from the public package.",
   "policy": {
@@ -78,7 +78,7 @@
   "craft_inputs": {
     "source_root": "skills/bunker-design",
     "output_root": "skills/vinci/references/craft",
-    "mode": "copy with trailing-whitespace normalization where listed",
+    "mode": "copy with normalization or portable doctrine adaptations where output hashes differ",
     "normalized_files": [
       "doctrine/05-color.md",
       "doctrine/07-content-and-copy.md",
@@ -88,14 +88,14 @@
       "doctrine/17-responsive-design.md"
     ],
     "files": [
-      ["doctrine/01-design-process.md", "630d69e3852463dd812c818b4af5c4be239a803ea3e9432ccf9fbe0c48df37a7"],
+      ["doctrine/01-design-process.md", "630d69e3852463dd812c818b4af5c4be239a803ea3e9432ccf9fbe0c48df37a7", "9362d3860e63edc16b5c2cda2482a198da7dff1930ae0879723aacff8e8c6108"],
       ["doctrine/02-asking-questions.md", "ecdb7a6874b7be5624eb2b39ccfff0f5bb2a393852fb6c7526188fce416163dd"],
       ["doctrine/03-hi-fi-design.md", "1f38305eb8fdfe6bccd349b1d0d61a8fb0b02a806692654f3e5c070242953951"],
       ["doctrine/04-typography.md", "764142f9744d6d77c25261b0ade78403ac128acbe9cb92682d36acc5f43db925"],
       ["doctrine/05-color.md", "d23f9f720712c543f907edaf30aa89ba7e5137bd8a459089285c44f604811f99", "cf833902706ebd869bd5ced45fb78b0f7c7a8a26d1c991aa4ef0ddad1e143899"],
       ["doctrine/06-layout-and-spacing.md", "587d860d439a8da1238d1af35737e423822e4de2cb1513be94632a1de0ee59a6"],
       ["doctrine/07-content-and-copy.md", "b9349a299edf210db73780e900e91280f3fed454c62c9b66c979c7db558b7dee", "32b43a40c72a770368f3883fabf5a73d9f670bfd3c73e1318f63bb301329af6d"],
-      ["doctrine/08-imagery-and-icons.md", "fe999735794eceeaef30afdfa219242c57209b69f28e21942aeb8353695dd7ce"],
+      ["doctrine/08-imagery-and-icons.md", "fe999735794eceeaef30afdfa219242c57209b69f28e21942aeb8353695dd7ce", "597542eeaabb07a9f392aab2373a98d5ec020227479808c11217e21e632d08d2"],
       ["doctrine/09-motion-and-animation.md", "a905c16c0fe474a0ad11e3d7a7b4889313efd1756b5654adef899e354f748913"],
       ["doctrine/10-interactive-prototypes.md", "53c4cb669b56d4431a7bf0f22e55bd6394d328a4b936983ca480c2918ee8b8af", "9f309df1310e1e7a4a24a5982e89328a7a5a1921da5ee4e46eabdb2f71b7c7ad"],
       ["doctrine/11-state-and-data.md", "a326016e38055bcb515ce432d1d099ef85296986d2bf9239bbce81beddcb965f", "aafa36f60bbe995bc67259b291352c33839e761e6b498e2bf8865c438c2d3b95"],
@@ -107,9 +107,17 @@
       ["doctrine/17-responsive-design.md", "43281b60a3fc2d8e87007877de924b5b729ab1bb53c71afa3debcc6fe6875eef", "0f2cf4120a220f65486ca59c26110417a99651f9841342b0095f54a56e0b9a74"],
       ["doctrine/18-common-pitfalls.md", "d6de0bcd819d5ffd8a773938cef79d6fc4da0aa462f398800ceabd71f37b053f"],
       ["doctrine/19-checklist.md", "720610756ceb48bee9cf6a81144ed5938cfd4a1625a9a266ea1454dbb4fbf703"],
-      ["doctrine/README.md", "da948e2623b19f8e47e0a52147deb85ee79553be9c8eaabe9dc3bfdea3e64e85"],
+      ["doctrine/README.md", "da948e2623b19f8e47e0a52147deb85ee79553be9c8eaabe9dc3bfdea3e64e85", "8fb6aa3dca6addcedac26b3b093544f8b489903d176ddd7666b6d66eeec9da44"],
       ["checklists/pitfalls.md", "c2b5ff016608d3260977fb7ee4b2bccd6fea7fa8e694538eadac0d7feaf40f16"],
       ["checklists/pre-delivery.md", "ef0620d021a3f60a3bcc4a79a6958efe3c0969055d4dff1abdff883baacb3592"]
+    ]
+  },
+  "portable_additions": {
+    "source": "User-supplied website case studies and supporting visual references",
+    "mode": "Distilled into reusable guidance",
+    "outputs": [
+      "skills/vinci/references/flagship-websites.md",
+      "skills/vinci/references/craft/doctrine/20-living-illustrated-scenery.md"
     ]
   },
   "asset_inputs": [

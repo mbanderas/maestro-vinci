@@ -193,12 +193,14 @@ async function verifySource() {
     "references/persona.md",
     "references/design-doctrine.md",
     "references/design-operations.md",
+    "references/flagship-websites.md",
     "references/interface-evaluation.md",
     "references/visual-validation.md",
     "references/catalog/fingerprint.json",
     "references/catalog/patterns.md",
     "references/catalog/annotations.md",
     "references/craft/doctrine/19-checklist.md",
+    "references/craft/doctrine/20-living-illustrated-scenery.md",
   ];
   for (const file of required) {
     if (!(await exists(join(SOURCE_DIR, file)))) {
