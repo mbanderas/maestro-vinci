@@ -74,6 +74,8 @@ Additionally require zero automatic rejections and no category below half its av
 
 Distinctiveness is not decoration count. Score it from one repeated, brief-derived decision that helps the task. Penalize framework-default composition, generic centered hero plus equal cards, arbitrary gradients, stretched decorative pills, unearned fixed-height stages, card soup, decorative dashboards, fake proof, interchangeable copy, and motion without a job. Do not penalize a conventional pattern that is correct for a high-frequency product task.
 
+For a public website, inspect the whole page as a sequence as well as each section in isolation. Look for repeated layouts and interchangeable imagery that weaken the subject. When judging a distinctive direction, temporarily hide the name and logo and ask what observable choices still express the brief. Use this as a diagnostic, not proof that a design is original or a reason to make routine controls unfamiliar.
+
 ## Output record
 
 ```text

@@ -34,6 +34,8 @@ Use:
 
 Inspect every capture. Sampling is not a complete pass.
 
+For long, lazy-loaded, or scroll-animated pages, compare a full-page capture against the actual scrolled view. If sections are missing or blank, scroll through to load them and capture overlapping viewport slices at settled positions. Inspect the slices or a carefully stitched composite. Fixed and sticky elements can repeat, and scroll-linked states can differ between slices, so identify those artifacts and use live scrolling to verify them. Preserve individual viewport captures for interaction and state evidence.
+
 ## Inspect the rendered result
 
 Check:
@@ -50,6 +52,7 @@ Check:
 - empty, loading, error, disabled, success, and long-content behavior;
 - broken images, missing fonts, console errors, and warnings;
 - whether each distinctive visual choice still serves the brief.
+- whether section-to-section pacing, scale, and composition stay intentional beyond the hero, including repeated grids and labels that have no content role.
 
 Apply the container-shape, stage-occupancy, and terminal-runt procedures in `design-operations.md` where relevant.
 
