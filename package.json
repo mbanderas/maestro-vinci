@@ -1,6 +1,6 @@
 {
   "name": "@maestrovinci/vinci",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Install Maestro: Vinci, the creative design partner for websites, apps, brands, decks, reports, and product experiences.",
   "type": "module",
   "bin": {
